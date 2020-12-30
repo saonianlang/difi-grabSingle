@@ -1,0 +1,24 @@
+{
+    "name": "difi-arbitrage",
+    "version": "0.0.1",
+    "author": "saonian",
+    "scripts": {
+        "start": "node ./bin/www",
+        "dev": "pm2 start ecosystem.config.js --env dev",
+        "test": "pm2 start ecosystem.config.js --env test",
+        "pro": "pm2 start ecosystem.config.js --env pro",
+        "logs": "pm2 logs",
+        "stop": "pm2 stop ecosystem.config.js"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "ethers": "^5.0.24",
+        "moment": "^2.29.1",
+        "mongoose": "^5.11.8",
+        "nodemailer": "^6.4.17",
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {},
+    "bugs": {},
+    "license": "MIT"
+}

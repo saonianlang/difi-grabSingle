@@ -1,0 +1,21 @@
+{
+	"env": {
+		"node": true,
+		"commonjs": true
+	},
+	"extends": ["prettier"],
+	"rules": {
+		"block-spacing": [2, "never"],
+		"arrow-parens": ["error", "always"],
+		"object-curly-spacing": ["error", "never"],
+		"indent": 0,
+		"arraysInObjects": false,
+		"prettier/prettier": [2, {
+			"printWidth": 150,
+			"tabWidth": 4,
+			"singleQuote": true, 
+			"bracketSpacing": false,
+			"htmlWhitespaceSensitivity": "ignore"
+		}]
+	}
+}
